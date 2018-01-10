@@ -47,7 +47,7 @@ To make a build with the [RequireJS optimizer (r.js)](http://requirejs.org/docs/
 
 The build file includes all dependencies, RequireJS itself and stubs the **jsx** plugin. To see it in action comment/uncomment the following in lines in _demo/index.html_.
 
-    <!--<script async data-main="main.js" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script> -->
+    <!--<script async data-main="main.js" src="../node_modules/requirejs/require.js"></script> -->
     <script async src="main-built.js"></script>
 
 ## Support
