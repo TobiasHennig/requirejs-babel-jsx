@@ -1,0 +1,25 @@
+{
+  "name": "requirejs-babel-jsx",
+  "version": "1.0.0",
+  "description": "An modern RequireJS loader plugin for JSX.",
+  "main": "jsx.js",
+  "scripts": {
+    "build": "r.js -o demo/build.js",
+    "demo": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["requirejs", "jsx", "plugin"],
+  "author": "Tobias Hennig <tobias.hennig1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "requirejs": "^2.3.5",
+    "send": "^0.16.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-standalone": "^6.26.0"
+  }
+}
